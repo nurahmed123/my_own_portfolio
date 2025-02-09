@@ -308,6 +308,7 @@ svg{
   line-height: 1.8;
   margin-top: 64px;
   color: var(--color-text);
+  width: 30rem;
 }
 
 .section-text{

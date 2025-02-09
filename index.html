@@ -3,11 +3,64 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="./public/nur.jpeg" />
   <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, target-densityDpi=device-dpi, minimal-ui' />
   <title>Nur Ahmad</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+  <!-- Meta Description -->
+  <meta name="description"
+    content="Nur Ahmad is a passionate programmer, robotics enthusiast, and NASA finalist. As CEO & Co-founder of Robo Superior, he pioneers innovative tech solutions. Contact him at 01575056952." />
+
+  <!-- Meta Keywords -->
+  <meta name="keywords"
+    content="Nur Ahmad, NASA, 01575056952, Robo Superior, robotics, programmer, robotics enthusiast, CEO, tech innovation, web development" />
+
+  <!-- Author -->
+  <meta name="author" content="Nur Ahmad" />
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nurahmed.hackclub.app/" />
+  <meta property="og:title" content="Nur Ahmad" />
+  <meta property="og:description"
+    content="Nur Ahmad is a passionate programmer and robotics enthusiast, recognized as a NASA finalist. Discover innovative tech solutions from Robo Superior. Contact: 01575056952." />
+  <meta property="og:image" content="./public/nur.jpeg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://nurahmed.hackclub.app/" />
+  <meta name="twitter:title" content="Nur Ahmad" />
+  <meta name="twitter:description"
+    content="Discover Nur Ahmad – a NASA finalist, robotics innovator, and CEO of Robo Superior. Contact him at 01575056952 for cutting-edge tech solutions." />
+  <meta name="twitter:image" content="./public/nur.jpeg" />
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Nur Ahmad",
+    "telephone": "01575056952",
+    "url": "https://example.com/",
+    "jobTitle": "CEO & Co-founder of Robo Superior",
+    "description": "Nur Ahmad is a passionate programmer, robotics enthusiast, and NASA finalist dedicated to pioneering innovative tech solutions in robotics and web development.",
+    "image": "https://example.com/your-image.jpg",
+    "sameAs": [
+      "https://github.com/nurahmed123",
+      "https://linkedin.com/in/06nurahmed",
+      "https://facebook.com/06nurahmed"
+    ]
+  }
+  </script>
 </head>
 
 <body class="light-theme">
@@ -74,44 +127,59 @@
 
       <div class="first-move section-margin"></div>
 
-      <section class="first-section section left">
+      <section class="first-section section left py-12">
+        <!-- Progress bar and section header -->
         <div class="progress-wrapper progress-bar-wrapper-left">
           <div class="progress-bar"></div>
         </div>
 
-        <div class="section-intro-wrapper">
-          <h1 class="section-title">
+        <div class="section-intro-wrapper mb-8">
+          <h1 class="section-title text-4xl font-bold text-gray-800">
             <span class="section-title-text">About Me</span>
             <div class="section-title-decoration styleOne"></div>
             <div class="section-title-decoration styleTwo"></div>
             <div class="section-title-decoration styleThree"></div>
           </h1>
-          <span class="section-number">01</span>
+          <span class="section-number text-xl text-gray-500">01</span>
         </div>
 
-        <div class="section-detail-wrapper">
-          <p class="section-text">
-            Hi there 👋! I'm Nur Ahmed, a passionate programmer, problem-solver, and robotics enthusiast from
-            Bangladesh. As the CEO and co-founder of Robo Superior, I thrive on innovation and pushing the boundaries of
-            technology.
-          </p>
-          <p class="section-text">
-            My journey into robotics began with curiosity and experimentation, leading me to participate in national and
-            international competitions. I’ve won four national awards and was a finalist in the NASA Conrad Challenge
-            2023-2024. These experiences have shaped my ability to collaborate, think critically, and tackle complex
-            challenges.
-          </p>
-          <p class="section-text">
-            Beyond robotics, I have a strong background in web development, working with modern technologies like
-            Next.js, TypeScript, and GraphQL. Currently, I’m diving deep into machine learning, exploring new
-            possibilities and developing innovative solutions.
-          </p>
-          <p class="section-text">
-            Whether it's coding algorithms, building robots, or working on DIY electronics projects, I enjoy pushing
-            technological limits. Let's connect and build the future together! 🚀
-          </p>
+        <!-- Content: Photo and text side by side on larger screens -->
+        <div class="section-detail-wrapper flex flex-col sm:flex-row items-center gap-8">
+          <!-- Photo -->
+          <div class="about-photo flex-shrink-0">
+            <img src="/public/nur.jpeg" alt="Nur Ahmed" class="rounded-full shadow-lg w-48 h-48 object-cover">
+          </div>
+
+          <!-- Text Content -->
+          <div class="about-text space-y-6 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Hey there 👋! I'm <strong>Nur Ahmed</strong> – a passionate programmer, problem-solver, and robotics
+              enthusiast from Bangladesh.
+              As the CEO and co-founder of <strong>Robo Superior</strong>, I thrive on innovation and pushing the
+              boundaries of technology.
+            </p>
+            <p>
+              My journey into robotics began with curiosity and experimentation, leading me to participate in both
+              national and international competitions.
+              I’ve earned four national awards and was a finalist in the <strong>NASA Conrad Challenge
+                2023-2024</strong>, experiences that have sharpened my ability to collaborate, think critically, and
+              tackle complex challenges.
+            </p>
+            <p>
+              Beyond robotics, I possess a robust background in web development, utilizing modern technologies such as
+              <strong>Next.js</strong>, <strong>TypeScript</strong>, and <strong>GraphQL</strong>.
+              Currently, I'm delving deep into machine learning to explore new possibilities and develop innovative
+              solutions.
+            </p>
+            <p>
+              Whether it's coding algorithms, building robots, or experimenting with DIY electronics projects, I love
+              pushing technological limits.
+              Let's connect and build the future together! 🚀
+            </p>
+          </div>
         </div>
       </section>
+
 
 
       <div class="second-move section-margin"></div>
@@ -140,7 +208,34 @@
 
       <div class="third-move section-margin"></div>
 
-      <section class="third-section section left">
+      <section class="second-section section left">
+        <div class="progress-wrapper progress-bar-wrapper-right">
+          <div class="progress-bar blue-background"></div>
+        </div>
+
+        <div class="section-intro-wrapper blue-text blue-border">
+          <h1 class="section-title blue-text blue-border">
+            <span class="section-title-text blue-text">Achievements</span>
+            <div class="section-title-decoration styleOne blue-border"></div>
+            <div class="section-title-decoration styleTwo blue-border"></div>
+            <div class="section-title-decoration styleThree blue-background blue-border"></div>
+          </h1>
+          <span class="section-number blue-text">03</span>
+        </div>
+
+        <div class="section-detail-wrapper" id="achievements-container">
+          <!-- Achievements will be dynamically loaded here -->
+        </div>
+
+        <button id="loadMoreBtn" class="load-more-btn blue-border" style="display: block;"><a
+            href="https://linkedin.com/in/06nurahmed" target="_blank">Load More</a></button>
+      </section>
+
+      <div class="third-move section-margin"></div>
+
+
+
+      <section class="third-section section right">
         <div class="progress-wrapper progress-bar-wrapper-left">
           <div class="progress-bar green-background"></div>
         </div>
@@ -152,7 +247,7 @@
             <div class="section-title-decoration styleTwo green-border"></div>
             <div class="section-title-decoration styleThree green-background green-border"></div>
           </h1>
-          <span class="section-number green-text">03</span>
+          <span class="section-number green-text">04</span>
         </div>
 
         <div class="section-detail-wrapper">
@@ -304,20 +399,27 @@
 
 <script>
   let page = 1;
-  const perPage = 6; // Show 6 projects initially
+  const perPage = 6; // Fetch 6 repos per page
   const projectsContainer = document.getElementById("projects-container");
   const loadMoreBtn = document.getElementById("loadMoreBtn");
 
   async function fetchProjects() {
+    console.log("Fetching page:", page);
     try {
-      const response = await fetch(`https://api.github.com/users/nurahmed123/repos?page=${page}&per_page=${perPage}&sort=created&direction=desc`);
+      // Adding a timestamp to bypass potential caching issues.
+      const url = `https://api.github.com/users/nurahmed123/repos?page=${page}&per_page=${perPage}&sort=created&direction=desc&ts=${Date.now()}`;
+      const response = await fetch(url);
       const repos = await response.json();
+      console.log("Fetched repos:", repos);
 
-      if (repos.length === 0) {
-        loadMoreBtn.style.display = "none"; // Hide button when no more repos
+      // If no repos are returned, hide the Load More button.
+      if (!Array.isArray(repos) || repos.length === 0) {
+        loadMoreBtn.style.display = "none";
+        console.log("No more repos available.");
         return;
       }
 
+      // Append each repository as a new project card.
       repos.forEach(repo => {
         const projectDiv = document.createElement("div");
         projectDiv.classList.add("project");
@@ -331,17 +433,121 @@
         projectsContainer.appendChild(projectDiv);
       });
 
-      page++; // Increment page for next fetch
+      page++; // Increment page for the next fetch
+
+      // If there are still more repos available, ensure the button is visible.
+      loadMoreBtn.style.display = "block";
     } catch (error) {
       console.error("Error fetching GitHub projects:", error);
     }
   }
 
+  // Attach event listener to the Load More button.
   loadMoreBtn.addEventListener("click", fetchProjects);
 
-  // Load initial projects
+  // Initial fetch.
   fetchProjects();
 </script>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const achievements = [
+      {
+        title: "NASA Conrad Challenge 2023-2024 Finalist",
+        description: "Secured 5th place in the international round of the prestigious NASA Conrad Challenge.",
+        image: "https://www.thedailystar.net/sites/default/files/styles/big_202/public/images/2024/04/25/group_photo_conrad_nasa_not_a_boring_team.jpeg",
+        link: "https://www.thedailystar.net/campus/campus/news/five-school-students-representing-bangladesh-nasa-3595356",
+      },
+      {
+        title: "IUT International Innovation Contest",
+        description: "Participated in a national-level competition showcasing innovative solutions.",
+        image: "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/440754845_976109550740375_2013871284212842221_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF3WYe30TQH73IU6MApjOXnIvolAUIN7rQi-iUBQg3utHakZLlMonXsgnbKRybcFJJv1dOGTVnQ76ITOBERB4XF&_nc_ohc=A2LdSPXy5xoQ7kNvgGNf9bb&_nc_oc=AdgysYDHaa2ojjwhlMLogVlxclvD6g4NKYCqIloGmGwHtuhkeNwZ4MSCzSew7sr0Gso&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=AusZVTTQMcga10HgraUmtqG&oh=00_AYBveYfRzLvcn4Y9OupmIC1O1B8C2Gmj5iE3ah-jnmrLZg&oe=67AEA668",
+        link: "",
+      },
+      {
+        title: "Beyond The Matrics 2024",
+        description: "Participated in a national-level competition showcasing innovative solutions.",
+        image: "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/438099073_367048716383152_2158573172174824484_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHuo85wiGJ6cxOXY9sTiUY716wAPjtE_oLXrAA-O0T-gqt1X4mC6zYk8frAOFPIj9UDtouAaiTPB5Lim6MFjCtn&_nc_ohc=6x3RwuCEwe8Q7kNvgHVmEwJ&_nc_oc=Adib2w9cuF4qRhfW4gu1uG-yqQEc0JbBn-YFPjcGc_affdYr-FnNU_SmQmRnW3TkgFU&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=AGHFFmmBDLekkKDh9ZLVyut&oh=00_AYD5vsCUJGrofpK3-f5ZWsgH3d1sd4mpKmKMO0ev0hkKbA&oe=67AEAC30",
+        link: "",
+      },
+      {
+        title: "Robo Carnival 2024",
+        description: "Won national recognition for excellence in robotics and automation.",
+        image: "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/425691025_300025189752172_1185661483432551447_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEVzSaOia_2FJqqaUrxb4aonBO28jrN5RWcE7byOs3lFeJhc4rdqy4Zwk8Ota4r2zxbdDUzPq_KgJm7nJ22qDJ5&_nc_ohc=yfejXxnVAikQ7kNvgHmJtI3&_nc_oc=Adi69RurVlhxpbnncSWfq6U6GYySBXF7S66D07g_hiZUwOCliVDbvbkcnm772rK__Cg&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=ARGqds-HiexiYuw1fudf4sP&oh=00_AYC4TfwSh1vZ12vgQ0RH6xioPXLxEUBU1cvc7RVzGK-OSg&oe=67AE9CE0",
+        link: "",
+      },
+      {
+        title: "VU Tech Fest 2024",
+        description: "Showcased innovative projects at VU Tech Fest 2024, earning accolades for creativity.",
+        image: "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/432365318_946991103652220_2955437385217935879_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEVtNa043Tp1arjmddmFIBrwH8QKftfbsvAfxAp-19uyw85ecqNLs9XWx4bILwVfKXrTWlfLqM3uyyG6vyT5Hxm&_nc_ohc=fIp4P1LhdOMQ7kNvgGHDOmu&_nc_oc=Adgxx0IbZzKHlMHgGSJvxho8jDZN_Tvkgck7jYLJatpog64NJPZj_pHCDqNdF8SamhY&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=AUAcRk0c-daJ-PS3B3vWwNs&oh=00_AYBw1O19kLpy_Zxdn_TzhQiyPrSvnv1nQJ-Dc-s97MJNkw&oe=67AE8401",
+        link: "",
+      },
+      {
+        title: "AIUB CS Fest 2024",
+        description: "Competed in the AIUB CS Fest, demonstrating programming and robotics expertise.",
+        image: "https://scontent.fdac31-1.fna.fbcdn.net/v/t39.30808-6/448367964_1005325144485482_711843375234700265_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGzwx1yuzuMHe-A6niHtXeOtacQZR7IU9y1pxBlHshT3GgaJySXcVD3Bs2rasKIjmY3ZYfOdm-tRjlT14352D6_&_nc_ohc=-6jF2v-ZlgQQ7kNvgEyw5gK&_nc_oc=Adg-Vvbin1Viz5gYj2hKs7vMiWT3tZz2HRL9UZKbWlXJvXyho0Y1bdXPz-zJOpsCyRA&_nc_zt=23&_nc_ht=scontent.fdac31-1.fna&_nc_gid=AReHKV1QYbdrp1qLhjTh1KW&oh=00_AYAOVN-B5VHv3LOppopd6eoZROsCOnYJa0VlUwvge5ZLXQ&oe=67AE7B14",
+        link: "",
+      },
+      {
+        title: "45th National Science Fest",
+        description: "Achieved top rankings in a national-level robotics competition.",
+        image: "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/448323786_1004756524542344_3004062701230937943_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH42lMmG1kfJIyo0_U8LGidrhIGrMwFCL-uEgaszAUIvxtv5-VawIjppVNbOUt1fE0YkyTfDljB5kT_h2P_PrNS&_nc_ohc=sWE4A78k5_0Q7kNvgGZ9cIe&_nc_oc=AdiJUiPPO6myI03tPXikJgaorcRQzX81F9cOmtHOdeX6KqstM91sP1gdD3lPDKxyjks&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=AZx9A1YNnPtsLxi0oKc7IXJ&oh=00_AYAsSFMU7WlHrIMVlVqDa2_RvEPd5C0wyq4YAAjIpsYfwA&oe=67AE9783",
+        link: "",
+      },
+      {
+        title: "BCSIR National Science Fest 2024",
+        description: "Presented groundbreaking innovations in AI and automation.",
+        image: "https://scontent.fdac31-2.fna.fbcdn.net/v/t39.30808-6/425677333_926951422322855_4988855480870993705_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFP2dYPz8hyVB6VidGAo5AVwSj-MIvxyobBKP4wi_HKhpZUE69OleONUIgUGVxaHbpXpJnAvMrexgnE0fEAHEKG&_nc_ohc=pwF-tTg0elgQ7kNvgE84lhp&_nc_oc=Adg5VznBVDHvOjShHI2xHdnoCm9jF0EphDFucLizMK074m19u5tz8SYaixUEdjq7Jak&_nc_zt=23&_nc_ht=scontent.fdac31-2.fna&_nc_gid=A5_JqNEy3sjyYmuO42wc5Pr&oh=00_AYCNBaymMbyVJwmkrYUzFD4n4v7JVDB8-tzaI8qH0uM8yw&oe=67AE8603",
+        link: "https://example.com/tech-expo",
+      }
+    ];
+
+    const container = document.getElementById("achievements-container");
+    const loadMoreBtn = document.getElementById("loadMoreBtn");
+    let visibleCount = 5; // Initially show 5 achievements
+
+    function renderAchievements() {
+      container.innerHTML = "";
+      achievements.slice(0, visibleCount).forEach((achievement) => {
+        const achievElem = document.createElement("div");
+        achievElem.classList.add("project");
+
+        achievElem.innerHTML = `
+          <div style="display: flex; align-items: center;">
+            <img src="${achievement.image}" alt="${achievement.title}" style="width: 80px; height: 80px; border-radius: 8px; margin-right: 15px;">
+            <div>
+              <h3>${achievement.title}</h3>
+              <p>${achievement.description}</p>
+              ${achievement.link
+            ? `<a href="${achievement.link}" target="_blank" class="blue-text">Learn More</a>`
+            : ""
+          }
+            </div>
+          </div>
+        `;
+
+        container.appendChild(achievElem);
+      });
+
+      // Show Load More button only if there are more achievements to load
+      if (visibleCount < achievements.length) {
+        loadMoreBtn.style.display = "block";
+      } else {
+        loadMoreBtn.style.display = "none";
+      }
+    }
+
+    loadMoreBtn.addEventListener("click", () => {
+      visibleCount = Math.min(visibleCount + 5, achievements.length);
+      renderAchievements();
+    });
+
+    renderAchievements();
+  });
+</script>
+
 
 
 <style>
@@ -380,5 +586,69 @@
     background: #d9e5e2;
     border: navajowhite;
     height: 3rem;
+  }
+</style>
+
+<style>
+  .project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    background: #f5f5f5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .dark-theme .project {
+    background: #4988b2;
+  }
+
+  .dark-theme .project a {
+    color: #063452;
+  }
+
+  .load-more-btn {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .load-more-btn:hover {
+    background: #217dbb;
+  }
+
+  .achievement-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+
+  .achievement-content {
+    flex: 1;
+  }
+
+  .achievement-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .achievement-description {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .achievement-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
   }
 </style>
